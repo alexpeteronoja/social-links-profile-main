@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    margin-top: 2px;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container img {
+    border-radius: 100%;
+    width: 100px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
